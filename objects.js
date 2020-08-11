@@ -6,3 +6,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
  playlist["Slowdive"] = "songTitle";
 }
 
+function removeFromPlaylist(playlist, artistName) {
+  
+}
