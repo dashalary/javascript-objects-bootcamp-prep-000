@@ -6,4 +6,4 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 playlist("My Bloody Valentine");
 playlist("Phil Ochs");
-playlist("Slowdive")
+playlist("Slowdive");
