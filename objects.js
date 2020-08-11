@@ -7,7 +7,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-var artistName = "My Bloody Valentine", "Phil Ochs", "Slowdive";
-delete playlist.artistName;
-
+delete playlist["My Bloody Valentine"];
+playlist["Phil Ochs"];
+playlist["Slowdive"];
 }
