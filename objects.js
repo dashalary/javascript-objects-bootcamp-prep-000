@@ -10,5 +10,5 @@ function removeFromPlaylist(playlist, artistName) {
 playlist["My Bloody Valentine"] = "artistName";
 playlist["Phil Ochs"] = "artistName";
 playlist["Slowdive"] = "artistName";
-delete playlist.artistName;
+delete playlist["artistName"];
 }
