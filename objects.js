@@ -8,6 +8,6 @@ function updatePlaylist(playlist, artistName, songTitle) {
 
 function removeFromPlaylist(playlist, artistName) {
 delete playlist["My Bloody Valentine"];
-playlist["Phil Ochs"];
-playlist["Slowdive"];
+delete playlist["Phil Ochs"];
+delete playlist["Slowdive"];
 }
