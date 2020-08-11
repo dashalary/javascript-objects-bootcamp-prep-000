@@ -7,5 +7,5 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
-delete playlist.slowdive;
+delete playlist["My Bloody Valentine"];
 }
